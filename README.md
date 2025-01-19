@@ -5,6 +5,7 @@ It's a collection for the binary hacking community for all free to use assets an
 
 ## What assets and resoources
 - musics
+- scripts
 - graphics
 - patches (wiki)
 - tutorials (wiki)
@@ -17,6 +18,8 @@ It's a collection for the binary hacking community for all free to use assets an
 
 ## How can i contribute?
 You send a pull request or contact repo maintainers on discord.
+#### format to upload as name:
+'Resource name' By 'XXXX'
 
 ## Current Maintainers 
 - Shiny Miner (discord : shinyhunter08)
