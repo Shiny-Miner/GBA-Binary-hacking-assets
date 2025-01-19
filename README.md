@@ -5,6 +5,7 @@ It's a collection for the binary hacking community for all free to use assets an
 
 ## What assets and resoources
 - musics
+- data (like something important to store and use)
 - scripts
 - graphics
 - patches (wiki)
