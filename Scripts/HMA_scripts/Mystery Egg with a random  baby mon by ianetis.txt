@@ -1,0 +1,92 @@
+section0: # 393E00
+  faceplayer
+  msgbox.yesno <auto>
+{
+[player], long time, no see.
+
+PROF. OAK asked me to find you.
+It would help our research to learn
+more about how baby POKéMON 
+learn and grow under the care of
+a trainer.
+
+So could you keep this EGG with you?
+}
+  if.no.goto <393DA0>
+  random 8
+  copyvar var8 varResult
+  if.compare.call var8 == 0 <393BC0>
+  if.compare.call var8 == 1 <393BF0>
+  if.compare.call var8 == 2 <section1>
+  if.compare.call var8 == 3 <section2>
+  if.compare.call var8 == 4 <section3>
+  if.compare.call var8 == 5 <section4>
+  if.compare.call var8 == 6 <section5>
+  if.compare.call var8 == 7 <section6>
+  msgbox.npc <auto>
+{
+Thank you, [player].
+
+I'm sure it could be a helpful 
+addition to your party!
+
+Also, I heard that BILL is in
+town!
+
+If you don't know, BILL created
+the PC storage system!
+
+You should pay him a visit if you've 
+got a chance.
+
+Well, I'm off,
+Good luck!
+}
+  closeonkeypress
+  fadescreen ToBlack
+  hidesprite 8
+  pause 10
+  fadescreen FromBlack
+  setflag 0x109A
+  setflag 0x109B
+  end
+
+section1: # 393E8E
+  giveEgg IGGLYBUFF
+  return
+
+section2: # 393E92
+  giveEgg PICHU
+  return
+
+section3: # 393E96
+  giveEgg MAGBY
+  return
+
+section4: # 393E9A
+  giveEgg ELEKID
+  return
+
+section5: # 393E9E
+  giveEgg SMOOCHUM
+  return
+
+section6: # 393EA2
+  giveEgg "MIME JR."
+  return
+
+section7: # 393DA0
+  msgbox.npc <auto>
+{
+B-But... PROF. OAK asked for you...
+}
+  release
+  end
+
+section8: # 393BC0
+  giveEgg TYROGUE
+  return
+
+section9: # 393BF0
+  giveEgg CLEFFA
+  return
