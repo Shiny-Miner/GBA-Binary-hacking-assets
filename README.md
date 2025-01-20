@@ -7,7 +7,7 @@ It's a collection for the binary hacking community for all free to use assets an
 - musics
 - data (like something important to store and use)
 - scripts
-- graphics
+- graphics like backgrounds
 - patches (wiki)
 - tutorials (wiki)
 - important points (wiki)
