@@ -1,0 +1,3 @@
+When inserting an area images into HMA, it will reorder the palette, resulting in the image looking glitchy cos of an incorrect transparent colour. Go to edit the image and drag the yellow (transparent colour) back into slot 1 and save.
+
+The box in the top left will also contain a black background instead of white, meaning you're unable to see the name of the area you're entering. To fix this, in HMA's image editor, tap the third circle below the controls to go to a separate 4=colour palette just for the box. Set colours 2, 3 and 4 to 7FDE, 3D89 and 6B5A.

@@ -1,0 +1,7 @@
+import character sprites to owm
+make palettes match in owm and do palette cleanup
+
+import new surf image into nse
+click file > import > color table and import from indexed sprites
+save palette to rom
+test rom

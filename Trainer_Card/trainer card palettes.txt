@@ -1,0 +1,18 @@
+blue palette  = palette1
+
+green palette = palette2
+
+bronze palette= 3CD0A0(-3CD0BF)
+
+silver palette= palette3
+
+gold palette  = 3CD22A(-3CD23F)
+
+
+
+
+red
+purple
+turquoise/bright green
+silver/white
+gold
