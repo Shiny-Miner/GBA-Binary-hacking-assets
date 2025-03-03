@@ -1,5 +1,5 @@
 # GBA-Binary-hacking-assets
-## This has now mega evolved! Thanks to LibertyJacob and Neon Skyler.
+## This has now mega evolved! Thanks to LibertyTwins and Neon Skyler.
 All in one public resources for binary rom hackers. Anyone can contribute. 
 ## What is it?
 It's a collection for the binary hacking community for all free to use assets and resources (with credits) Also an important wiki will be created to tag tutorials and tricks.
